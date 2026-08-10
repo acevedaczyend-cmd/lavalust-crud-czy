@@ -574,9 +574,7 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
 <div class="hero wrap">
     <div class="badge">v<?php echo config_item('VERSION') ?? '4.x'; ?> — Now Available</div>
     <h1>
-        <span class="word-lava">SEAN</span><span class="word-lust"> IVAN</span><br>RAMISCALgit add .
-git commit -m "Update LavaLust landing page"
-git push
+        <span class="word-lava">SEAN</span><span class="word-lust"> IVAN</span><br>RAMISCAL
     </h1>
     <p class="hero-sub">
         A lightweight, expressive PHP MVC framework built for developers who want structure without the bloat.

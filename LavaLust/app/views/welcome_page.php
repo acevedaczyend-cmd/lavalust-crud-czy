@@ -6,7 +6,7 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi! I'm SEAN IVAN RAMISCAL</title>
+    <title>Welcome to LavaLust</title>
     <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700;800&family=Unbounded:wght@400;500&display=swap" rel="stylesheet">
@@ -574,7 +574,9 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
 <div class="hero wrap">
     <div class="badge">v<?php echo config_item('VERSION') ?? '4.x'; ?> — Now Available</div>
     <h1>
-        <span class="word-lava">Lava</span><span class="word-lust">Lust</span><br>Framework
+        <span class="word-lava">SEAN</span><span class="word-lust"> IVAN</span><br>RAMISCALgit add .
+git commit -m "Update LavaLust landing page"
+git push
     </h1>
     <p class="hero-sub">
         A lightweight, expressive PHP MVC framework built for developers who want structure without the bloat.

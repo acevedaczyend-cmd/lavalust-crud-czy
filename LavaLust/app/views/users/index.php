@@ -21,8 +21,10 @@
         <thead>
             <tr>
                 <th>ID</th>
-                <th>Username</th>
+                <th>First Name</th>
+                <th>Last Name</th>
                 <th>Email</th>
+                <th>Username</th>
             </tr>
         </thead>
         <tbody>
@@ -30,13 +32,15 @@
                 <?php foreach($users as $user): ?>
                     <tr>
                         <td><?= htmlspecialchars($user['id']); ?></td>
-                        <td><?= htmlspecialchars($user['username']); ?></td>
+                        <td><?= htmlspecialchars($user['firstname']); ?></td>
+                        <td><?= htmlspecialchars($user['lastname']); ?></td>
                         <td><?= htmlspecialchars($user['email']); ?></td>
+                        <td><?= htmlspecialchars($user['username']); ?></td>
                     </tr>
                 <?php endforeach; ?>
             <?php else: ?>
                 <tr>
-                    <td colspan="3" style="text-align:center;">No users found.</td>
+                    <td colspan="5" style="text-align:center;">No users found.</td>
                 </tr>
             <?php endif; ?>
         </tbody>

@@ -10,9 +10,8 @@ class Products extends Controller {
     }
 
     public function index() {
-        $data['products'] = $this->ProductModel->get_all();
-        $this->call->view('products/index', $data);
-    }
+    echo "<h1 style='color: pink;'>Test Output: Active na ang Products Controller!</h1>";
+}
 
     public function create() {
         $this->call->view('products/create');

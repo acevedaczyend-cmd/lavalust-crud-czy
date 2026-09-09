@@ -120,7 +120,7 @@ Class Io {
 			}
 			return $post;
 		}
-		return $_POST[$index];
+		return isset($_POST[$index]) ? $_POST[$index] : NULL;
 	}
 
 	/**

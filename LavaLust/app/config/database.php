@@ -1,14 +1,13 @@
 <?php
 defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
 
-$database['main'] = array(
-    'hostname' => 'mysql-2cc8c2cd-lavalustproject-1112.b.aivencloud.com',
+$db['default'] = array(
+    'hostname' => 'mysql-1ae50f6f-lavalustproject1.c.aivencloud.com',
     'username' => 'avnadmin',
-    'password' => 'AVNS_86pO-PmnQzQCygKzmzt',
-    'database' => 'mydb',
-    'driver'   => 'mysql',
-    'port'     => 20551,
+    'password' => 'AVNS_PIE4ft5nL6UkoDtHdqg',
+    'database' => 'defaultdb',
+    'port'     => 21503,
+    'dbdriver' => 'mysqli',
     'charset'  => 'utf8',
-    'collate'  => 'utf8_general_ci',
-    'prefix'   => ''
+    'dbcollat' => 'utf8_general_ci',
 );
